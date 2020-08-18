@@ -1,5 +1,5 @@
 -e .
--r ./lambda/requirements.txt
+-r ./update_managed_prefix_lists/lambda/requirements.txt
 aws-cdk.core
 aws-cdk.aws_lambda
 aws_cdk.aws_lambda_event_sources 
