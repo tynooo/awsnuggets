@@ -2,10 +2,11 @@
 
 from aws_cdk import core
 
-from awsnuggets.awsnuggets_stack import AwsnuggetsStack
+
+from update_managed_prefix_lists.update_managed_prefix_lists_stack import UpdateManagedPrefixListsStack
 
 
 app = core.App()
-AwsnuggetsStack(app, "awsnuggets")
+UpdateManagedPrefixListsStack(app, "update-managed-prefix-lists")
 
 app.synth()
